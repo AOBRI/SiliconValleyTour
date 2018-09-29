@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height_mall"
+    android:layout_marginLeft="@dimen/default_margin"
+    android:layout_marginTop="@dimen/list_vertical_margins"
+    android:layout_marginRight="@dimen/default_margin"
+    android:layout_marginBottom="@dimen/list_vertical_margins"
+    android:background="@android:color/white"
+    android:padding="0dp"
+    app:cardBackgroundColor="@color/colorItemCardBackground"
+    app:cardCornerRadius="@dimen/card_corner_radius"
+    app:cardElevation="@dimen/card_elevation"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="false"
+    app:contentPadding="0dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/mall_iv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription=""
+            android:scaleType="centerCrop"
+            android:src="@color/colorPrimary"
+            app:riv_corner_radius="@dimen/card_corner_radius" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/mall_name_tv"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:background="@color/semi_transparent_dark_overlay"
+            android:orientation="vertical"
+            android:padding="@dimen/default_padding" />
+
+        <TextView
+            android:id="@+id/mall_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/mall_workhours_tv"
+            android:lines="1"
+            android:padding="@dimen/default_padding"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            tools:text="Mall Name Here" />
+
+        <TextView
+            android:id="@+id/mall_workhours_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_toStartOf="@+id/mall_location_ib"
+            android:layout_toLeftOf="@+id/mall_location_ib"
+            android:lines="1"
+            android:padding="@dimen/default_padding"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+            tools:text="Mall Workhours Here" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/mall_location_ib"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="@dimen/default_margin"
+            android:background="@android:color/transparent"
+            android:src="@drawable/baseline_place_white_36" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorPrimaryLight">#B2DFDB</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorItemCardBackground">#3000BCD4</color>
+    <color name="semi_transparent_dark_overlay">#80111111</color>
+    <color name="tab_text_normal">#B2DFDB</color>
+    <color name="tab_text_selected">#FFFFFF</color>
+    <color name="tab_indicator_color">#B2DFDB</color>
+    <color name="rating_star_color">#FFD700</color>
+</resources>

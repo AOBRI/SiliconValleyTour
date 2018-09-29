@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_padding">8dp</dimen>
+    <dimen name="default_margin">16dp</dimen>
+    <dimen name="default_margin_half">8dp</dimen>
+    <dimen name="card_corner_radius">4dp</dimen>
+    <dimen name="card_elevation">0dp</dimen>
+    <dimen name="list_vertical_margins">8dp</dimen>
+    <dimen name="list_item_height_landmark">320dp</dimen>
+    <dimen name="list_item_height_hotel">256dp</dimen>
+    <dimen name="list_item_height_restaurant">256dp</dimen>
+    <dimen name="list_item_height_mall">256dp</dimen>
+    <dimen name="descriptions_text_size">12sp</dimen>
+    <dimen name="names_text_size">20sp</dimen>
+    <dimen name="prices_text_size">18sp</dimen>
+    <dimen name="workhours_text_size">14sp</dimen>
+    <dimen name="margin_toolbar_bottom">48dp</dimen>
+    <dimen name="rating_star_size">24dp</dimen>
+</resources>
